@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: "kotlin-android-extensions"
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId 'in.csias.tcclient'
+        buildConfigField 'boolean', 'HIDDEN_APP', 'false'
+        minSdkVersion 19
+        targetSdkVersion 31
+        versionCode 83
+        versionName '6.22'
+        multiDexEnabled true
+    }
+
+    buildFeatures{
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    flavorDimensions 'default'
+    productFlavors {
+        regular {
+            isDefault = true
+        }
+        google
+        hidden {
+            applicationId 'in.in.tcclient.hidden'
+            buildConfigField 'boolean', 'HIDDEN_APP', 'true'
+        }
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.7.0-alpha01'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.preference:preference-ktx:1.2.0'
+    implementation 'androidx.test:core-ktx:1.4.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.github.judemanutd:autostarter:1.1.0'
+    implementation('dev.doubledot.doki:library:0.0.1@aar') {
+        transitive = true
+    }
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.0.4'
+    implementation 'com.google.android.gms:play-services-measurement-api:21.0.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'in.robolectric:robolectric:4.6.1'
+    googleImplementation platform('com.google.firebase:firebase-bom:30.0.1')
+    googleImplementation 'com.google.firebase:firebase-core'
+    googleImplementation 'com.google.firebase:firebase-analytics'
+    googleImplementation 'com.google.firebase:firebase-crashlytics'
+    googleImplementation 'com.google.firebase:firebase-messaging'
+    googleImplementation 'com.google.android.gms:play-services-location:19.0.1'
+    googleImplementation 'com.google.android.play:core:1.10.3'
+
+    // ccp
+    implementation 'com.hbb20:ccp:2.5.1'
+}
+apply plugin: 'com.google.gms.google-services'
