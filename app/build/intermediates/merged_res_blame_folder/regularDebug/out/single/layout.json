@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/activity_splash_screen.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/main.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/main.xml"
+    },
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/activity_auth.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/list.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/list.xml"
+    },
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/activity_number.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/activity_number.xml"
+    },
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/activity_privacy.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/activity_privacy.xml"
+    },
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/activity_otp.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/activity_otp.xml"
+    },
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/activity_main_otp.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/activity_main_otp.xml"
+    },
+    {
+        "merged": "in.csias.tcclient.app-mergeRegularDebugResources-39:/layout/activity_login.xml",
+        "source": "in.csias.tcclient.app-main-42:/layout/activity_login.xml"
+    }
+]

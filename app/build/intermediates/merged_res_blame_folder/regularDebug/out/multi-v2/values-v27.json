@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "in.csias.tcclient.app-mergeRegularDebugResources-38:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/Users/fa/.gradle/caches/transforms-3/91f1f26e3aa0387d54d4d15dc7c228ca/transformed/library-0.0.1/res/values-v27/values-v27.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,115",
+                        "endLines": "2,10",
+                        "endColumns": "59,12",
+                        "endOffsets": "110,626"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "in.csias.tcclient",
+  "variantName": "googleRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 84,
+      "versionName": "6.23",
+      "outputFile": "resources-googleRelease.ap_"
+    }
+  ],
+  "elementType": "File"
+}

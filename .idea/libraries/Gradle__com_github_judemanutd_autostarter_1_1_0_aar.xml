@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.judemanutd:autostarter:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f2f5f8abb010bcf684287662dc79d403/transformed/autostarter-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f2f5f8abb010bcf684287662dc79d403/transformed/autostarter-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f2f5f8abb010bcf684287662dc79d403/transformed/autostarter-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.judemanutd/autostarter/1.1.0/f21755457638345f75f9ed95158960a4431133fc/autostarter-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

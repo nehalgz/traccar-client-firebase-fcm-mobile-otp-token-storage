@@ -1,0 +1,7 @@
+#Wed May 18 22:02:06 IST 2022
+base.1=/Users/fa/Work/traccar-client-firebase-fcm-mobile-otp-token-storage/app/build/intermediates/dex/regularRelease/mergeDexRegularRelease/classes2.dex
+path.1=classes2.dex
+base.0=/Users/fa/Work/traccar-client-firebase-fcm-mobile-otp-token-storage/app/build/intermediates/dex/regularRelease/mergeDexRegularRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

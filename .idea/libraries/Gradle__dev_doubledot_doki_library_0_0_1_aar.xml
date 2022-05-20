@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.doubledot.doki:library:0.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91f1f26e3aa0387d54d4d15dc7c228ca/transformed/library-0.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91f1f26e3aa0387d54d4d15dc7c228ca/transformed/library-0.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/91f1f26e3aa0387d54d4d15dc7c228ca/transformed/library-0.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.doubledot.doki/library/0.0.1/687807dc33ff447371a345769d2dd7582d177e56/library-0.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.doubledot.doki/library/0.0.1/dfc007d25137dc9baa4873654ce5ae818441df55/library-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

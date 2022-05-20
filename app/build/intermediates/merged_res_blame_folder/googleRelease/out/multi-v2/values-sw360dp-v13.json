@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "in.csias.tcclient.app-mergeGoogleReleaseResources-39:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/fa/.gradle/caches/transforms-3/94a04a5d7e8f987070eaed1dbc2caf96/transformed/preference-1.2.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}
