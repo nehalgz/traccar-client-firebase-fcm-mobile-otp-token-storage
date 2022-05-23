@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "BUNDLE",
+    "kind": "RegularFile"
+  },
+  "applicationId": "in.csias.tcclient",
+  "variantName": "regularDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "outputFile": "../../../outputs/bundle/regularDebug/app-regular-debug.aab"
+    }
+  ],
+  "elementType": "File"
+}

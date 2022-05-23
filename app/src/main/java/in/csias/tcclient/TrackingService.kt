@@ -32,6 +32,7 @@ import android.provider.Settings
 import android.util.Log
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
+import androidx.multidex.BuildConfig
 import androidx.preference.PreferenceManager
 
 class TrackingService : Service() {
@@ -108,16 +109,16 @@ class TrackingService : Service() {
         @SuppressLint("UnspecifiedImmutableFlag")
         private fun createNotification(context: Context): Notification {
             val builder = NotificationCompat.Builder(context, MainApplication.PRIMARY_CHANNEL)
-                .setSmallIcon(R.drawable.ic_stat_notify)
-                .setPriority(NotificationCompat.PRIORITY_LOW)
-                .setCategory(NotificationCompat.CATEGORY_SERVICE)
+                    .setSmallIcon(R.drawable.ic_stat_notify)
+                    .setPriority(NotificationCompat.PRIORITY_LOW)
+                    .setCategory(NotificationCompat.CATEGORY_SERVICE)
             val intent: Intent
-            if (!BuildConfig.HIDDEN_APP) {
+            if (!BuildConfig.DEBUG){
                 intent = Intent(context, MainActivity::class.java)
                 builder
-                    .setContentTitle(context.getString(R.string.settings_status_on_summary))
-                    .setTicker(context.getString(R.string.settings_status_on_summary))
-                    .color = ContextCompat.getColor(context, R.color.primary_dark)
+                        .setContentTitle(context.getString(R.string.settings_status_on_summary))
+                        .setTicker(context.getString(R.string.settings_status_on_summary))
+                        .color = ContextCompat.getColor(context, R.color.primary_dark)
             } else {
                 intent = Intent(Settings.ACTION_SETTINGS)
             }

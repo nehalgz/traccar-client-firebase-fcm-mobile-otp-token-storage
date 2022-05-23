@@ -8,8 +8,8 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "in.csias.tcclient";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "regular";
-  public static final int VERSION_CODE = 84;
-  public static final String VERSION_NAME = "6.23";
+  public static final int VERSION_CODE = 86;
+  public static final String VERSION_NAME = "6.25";
   // Field from default config.
   public static final boolean HIDDEN_APP = false;
 }
