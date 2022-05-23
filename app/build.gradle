@@ -10,8 +10,8 @@ android {
         buildConfigField 'boolean', 'HIDDEN_APP', 'false'
         minSdkVersion 19
         targetSdkVersion 31
-        versionCode 84
-        versionName '6.23'
+        versionCode 85
+        versionName '6.24'
         multiDexEnabled true
     }
 
